@@ -10,3 +10,8 @@ def past(h, m, s):
     minutes = m * 60 * 1000
     seconds = s * 1000 # convert each variable to milliseconds
     return hours + minutes + seconds
+
+# another example
+
+def past(h, m, s):
+    return (3600*h + 60*m + s) * 1000
