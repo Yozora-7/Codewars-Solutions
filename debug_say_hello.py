@@ -9,3 +9,6 @@ Hello, Mr. Spock
 
 def say_hello(name):
     return "Hello, " + name
+
+def say_hello(name):
+    return f"Hello, {name}"
